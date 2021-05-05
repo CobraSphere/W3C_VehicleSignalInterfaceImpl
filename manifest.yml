@@ -1,0 +1,8 @@
+---
+applications:
+  - name: "W3C-VSII-Server-Core"
+    buildpacks:
+    - go_buildpack
+    env:
+      GEN2MODULEIP: atserver
+    # command: 
